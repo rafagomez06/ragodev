@@ -3,14 +3,14 @@
 
 <head>
   <meta charset="utf-8">
-  <title>:: Dulce Capricho | Postres ::</title>
+  <title>:: Glow Studio by Zaida García::</title>
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
   <meta content="" name="keywords">
   <meta content="" name="description">
 
   
   <!-- Place your favicon.ico and apple-touch-icon.png in the template root directory -->
-  <link href="../Dulce_Capricho/img/kitchen-coock-chef-hat_108594.ico" rel="shortcut icon">
+  <link href="../Glow/img/eye.ico" rel="shortcut icon">
 
   <!-- Google Fonts -->
   
@@ -53,12 +53,14 @@
   <section id="hero">
     <div class="hero-container">
       <div class="wow fadeIn">
-        <div class="hero-logo">
-          
-          <img class="" src="../Dulce_Capricho/img/sarahi.png" alt="Dulce Capricho"> 
+        <div class="hero-logo">          
+          <img class="" src="../Glow/img/eye.ico" alt="Glow Studio Culiacán"> 
+          <h3>Glow Studio Cln</h3>
+          <h5>By Zaida García</h5>
         </div>
         <div class="actions">
-          <a href="#contact" class="btn-get-started">ORDENA AQUÍ</a>
+          <a href="#servicios" class="btn-servicios">Servicios</a>
+          <a href="#contact" class="btn-cita">Agenda tu Cita</a>
         <!--   <a href="#services" class="btn-services">Nuestros Servicios</a>-->
         </div>
       </div>
@@ -66,33 +68,33 @@
   </section>
 
 
-  <section>
+  <section id="servicios">
     <div class="container">
       <div class="row">
           <div class="col s12">
-            <h3 class="section-title">Nuestros Postres</h3>
+            <h3 class="section-title">Nuestros Servicios</h3>
 
               <div class="carousel center-align">
                   <div class="carousel-item">                      
-                      <img src="../Dulce_Capricho/img/cupcake.jpg" alt="">
-                      <p class="postre">Postre 1</p>
+                      <img src="../Glow/img/lash.jpg" alt="">
+                      <p class="desc">Classic Lashes</p>
                   </div>
                   <div class="carousel-item">
                       
-                      <img src="../Dulce_Capricho/img/cupcake.jpg" alt="">
-                      <p class="postre">Postre 2</p>
+                      <img src="../Glow/img/lash2.jpg" alt="">
+                      <p class="desc">Classic Lashes</p>
                   </div>
                   <div class="carousel-item">
-                    <img src="../Dulce_Capricho/img/cupcake.jpg" alt="">
-                    <p class="postre">Postre 3</p>
+                    <img src="../Glow/img/u1.jpg" alt="">
+                    <p class="desc">Uñas</p>
                   </div>
                   <div class="carousel-item">
-                    <img src="../Dulce_Capricho/img/cupcake.jpg" alt="">
-                    <p class="postre">Postre 4</p>
+                    <img src="../Glow/img/u2.jpg" alt="">
+                    <p class="desc">Pedicure Jelly Spa</p>
                   </div>
                   <div class="carousel-item">
-                    <img src="../Dulce_Capricho/img/cupcake.jpg" alt="">
-                    <p class="postre">Postre 5</p>
+                    <img src="../Glow/img/u3.jpg" alt="">
+                    <p class="desc">Gelish</p>
                   </div>
 
               </div>
@@ -103,8 +105,27 @@
 
 </section>
 
- 
- <!-- 
+
+  <!--
+  ==========================
+  Mapa
+  ============================-->
+
+  <section id="mapa">
+    <section class="contacto row justify-content-center">
+      <div class="col-md-5 col-md-push-4">
+        <h3 class="section-title">VISÍTANOS</h3>
+      
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1811.4459516711563!2d-107.37759929951245!3d24.764895146774666!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86bcd6d130f665c3%3A0xccf45b99f1198191!2sMina%20San%20Jos%C3%A9%20de%20Gracia%201749%2C%20Col.%20Amp%20Antonio%20Toledo%20Corro%2C%20Antonio%20Toledo%20Corro%2C%2080296%20Culiac%C3%A1n%20Rosales%2C%20Sin.!5e0!3m2!1ses!2smx!4v1639069625058!5m2!1ses!2smx"
+        width="100%" height="350" frameborder="0" style="border:0;" allowfullscreen=""></iframe>         
+      </div>
+    </section>
+</section>
+
+
+
+
+  <!--
   ==========================
   Contact Section
   ============================-->
@@ -112,9 +133,9 @@
     <div class="container wow fadeInUp">
       <div class="row">
         <div class="col-md-5 col-md-push-4">
-          <h3 class="section-title">ORDENA AQUÍ</h3>
+          <h3 class="section-title">AGENDA TU CITA</h3>
           <div class="section-title-divider"></div>
-          <p class="section-description">Completa la información para ordenar</p>
+          <p class="section-description">Completa la información para agendar tu cita</p>
         </div>
       </div>
 
@@ -124,24 +145,19 @@
           <div class="form">                  
             <form action="" method="post" role="form" class="contactForm">
               <div class="form-group">
-                <input type="text" name="name" class="form-control" id="cliente" placeholder="Nombre" required/>
+                <input type="text" name="name" class="form-control" id="cliente" placeholder="Ingresa tu nombre" required/>
                   <div class="hide" id="validation-message1">
                     Campo requerido, ingrese un Nombre.
                 </div>
               </div>
               <div class="form-group" id="AssignDiv" name="responsable">
                 <select id="productos" onchange="validateAssigned(this)" name="responsable" class="form-control form-control-user validateable" style="height: 50px; padding: 0.375rem 0.75rem; width: 100%;" tabindex="-1" required>
-                  <option value="" disabled selected>Selecciona un producto</option>
-                  <option>Galletas de Dulce de Leche - 12 pzas</option>
-                  <option>Galletas de Dulce de Leche - 21 pzas</option>
-                  <option>Galletas de Dulce de Leche - 50 pzas</option>
-                  <option>Bollitos de Zanahoria</option>
-                  <option>Roles de Canela</option>
-                  <option>Mini CupCakes</option>
-                  <option>CupCakes Normales</option>
-                  <option>Centenarios</option>
-                  <option>Pastel de Zanahoria</option>
-                  <option>Rosca de Zanahoria</option>
+                  <option value="" disabled selected>-Elige un servicio-</option>
+                  <option>Uñas</option>
+                  <option>Gelish</option>
+                  <option>Lashes</option>
+                  <option>Pedicure Jelly Spa</option>
+                  
                 </select>
                 <div class="hide" id="validation-message2">
                     Campo requerido, seleccione una opcion
@@ -152,13 +168,13 @@
               <input id="fecha" type="date" class="formulario__input" pattern="[0-9]{4}-[0-9]{2}-[0-9]{2}"/>
             </div>
               <div class="form-group">
-                <textarea onchange="validateAssigned(this)" id="comentarios" placeholder="Comentarios" name="Note" class="form-control form-control-user validateable" rows="5" required></textarea>
+                <textarea onchange="validateAssigned(this)" id="comentarios" placeholder="Ingresa alguna indicación*" name="Note" class="form-control form-control-user validateable" rows="5" required></textarea>
                   <div class="hide" id="validation-message1">
                     Campo requerido, ingrese algún Comentario.
                   </div>              
             </div>             
               <div class="text-center">
-                 <button onclick="validateAssigned()" id="submit" type="submit">Realizar Pedido <i class="fa fa-whatsapp fa-lg"></i></button>
+                 <button onclick="validateAssigned()" id="submit" type="submit">Realizar Cita <i class="fa fa-whatsapp fa-lg"></i></button>
               </div>
                 
             </form>
@@ -178,7 +194,7 @@
     <div class="row">
       <div class="col-md-12">
         <div class="copyright">
-          &copy; Copyright Dulce Capricho  - Todos Los Derechos Reservados.
+          &copy; Copyright <strong>Glow Studio CLN</strong>  - Todos Los Derechos Reservados.
         </div>
         <div class="credits">
       

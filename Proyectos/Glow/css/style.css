@@ -12,12 +12,12 @@
 
 body {
   background: #fff;
-  color: #666666;
+  color: #ffffff;
   font-family: 'Exo 2', sans-serif;
 }
 
 a {
-  color: rgb(0, 0, 0);
+  color: #fffb00;
   transition: 0.5s;
 }
 
@@ -27,7 +27,7 @@ a:hover, a:active, a:focus {
   text-decoration: none;
 }
 .formulario__label{
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
 }
 p {
   padding: 0;
@@ -50,7 +50,7 @@ h1, h2, h3, h4, h5, h6 {
   width: 100%;
   height: 100%;
   overflow: visible;
-  background: #fff url("../img/kitchen-coock-chef-hat_108594.ico") no-repeat center center;
+  background: #fff url("../img/eye.ico") no-repeat center center;
 }
 
 /* Back to top button */
@@ -58,7 +58,7 @@ h1, h2, h3, h4, h5, h6 {
   position: fixed;
   display: none;
   background: rgba(0, 0, 0, 0.2);
-  color: rgb(14, 14, 14);
+  color: white;
   padding: 6px 12px 9px 12px;
   font-size: 16px;
   border-radius: 2px;
@@ -91,7 +91,7 @@ h1, h2, h3, h4, h5, h6 {
   display: table;
   width: 100%;
   height: 100vh;
-  background: url(../img/banner.jpg) top center fixed;
+  background: url(../img/back.jpg) top center fixed;
   background-size:cover;
 }
 
@@ -128,7 +128,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #hero h2 {
-  color: #999;
+  color: rgb(255, 255, 255);
   margin-bottom: 50px;
 }
 
@@ -160,10 +160,23 @@ h1, h2, h3, h4, h5, h6 {
   margin: 10px;
 }
 
-#hero .btn-get-started {
-  background:#e2a9c4;
-  border: 2px solid #000000;
-  color: #fff;
+#hero .btn-servicios {
+  background: #8d093a;
+  border: 0;
+  padding: 10px 24px;
+  color: rgb(255, 255, 255);
+  transition: 0.4s;
+  border-radius: 35px;
+  
+}
+
+#hero .btn-cita {
+  background: #000000;
+  border: 0;
+  padding: 10px 24px;
+  color: rgb(255, 255, 255);
+  transition: 0.4s;
+  border-radius: 35px;
   
 }
 
@@ -486,93 +499,32 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 
 
-/* Portfolio Section
---------------------------------*/
-#portfolio {
-  background: #fff;
-  padding: 80px 0;
+#mapa {
+  background: #890033cf;
+  padding: 1px 0px;
 }
-
-#portfolio .portfolio-item {
-  background-position: center center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  position: relative;
-  height: 260px;
-  width: 100%;
-  display: table;
-  overflow: hidden;
-  margin-bottom: 30px;
-}
-
-#portfolio .portfolio-item .details {
-  height: 260px;
-  background: #fff;
-  display: table-cell;
-  vertical-align: middle;
-  opacity: 0;
-  transition: 0.3s;
-  text-align: center;
-}
-
-#portfolio .portfolio-item .details h4 {
-  font-size: 16px;
-  transition: opacity 0.3s, -webkit-transform 0.3s;
-  transition: transform 0.3s, opacity 0.3s;
-  transition: transform 0.3s, opacity 0.3s, -webkit-transform 0.3s;
-  -webkit-transform: translate3d(0, -15px, 0);
-  transform: translate3d(0, -15px, 0);
-  font-weight: 700;
-  color: #333333;
-}
-
-#portfolio .portfolio-item .details span {
-  display: block;
-  color: #666666;
-  font-size: 13px;
-  transition: opacity 0.3s, -webkit-transform 0.3s;
-  transition: transform 0.3s, opacity 0.3s;
-  transition: transform 0.3s, opacity 0.3s, -webkit-transform 0.3s;
-  -webkit-transform: translate3d(0, 15px, 0);
-  transform: translate3d(0, 15px, 0);
-}
-
-#portfolio .portfolio-item:hover .details {
-  opacity: 0.8;
-}
-
-#portfolio .portfolio-item:hover .details h4 {
-  -webkit-transform: translate3d(0, 0, 0);
-  transform: translate3d(0, 0, 0);
-}
-
-#portfolio .portfolio-item:hover .details span {
-  -webkit-transform: translate3d(0, 0, 0);
-  transform: translate3d(0, 0, 0);
-}
-
 
 /* Contact Section
 --------------------------------*/
 #contact {
-  background: #a10085ab;
-  padding: 80px 0;
+  background: #890033cf;
+  padding: 50px 0px;
 }
 #contact .form button[type="submit"] {
-  background: #128C7E;
+  background: #000000;
   border: 0;
   padding: 10px 24px;
-  color: #fff;
+  color: rgb(255, 255, 255);
   transition: 0.4s;
   border-radius: 35px;
 }
 
 #contact .form button[type="submit"]:hover {
-  background: #000000;
+  background: #25D366;
 }
 
 select,input[type="text"] {
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
   display: block;
 }
 
@@ -588,7 +540,7 @@ textarea {
 
 .invalid-message {
   display: block;
-  color: red;
+  color:#ffeb00;
   font-size: 14px;
 }
 .hide{
@@ -600,21 +552,19 @@ textarea {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background: #ff3e99cf;
+  background: #000000;
   padding: 30px 0;
   color: #fff;
 }
 
 #footer .copyright {
   text-align: center;
-  font-weight: bold;
 }
 
 #footer .credits {
   padding-top: 10px;
   text-align: center;
   font-size: 13px;
-  font-weight: bold;
   color: rgb(255, 255, 255);
 }
 

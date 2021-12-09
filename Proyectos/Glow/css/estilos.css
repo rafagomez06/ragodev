@@ -1,12 +1,15 @@
 
+
+
+
 body { 
     min-height: 100vh;
-    background-image: linear-gradient(-45deg, #c5e5f5 50%, #e2a9c4 50%);
+    background-image: linear-gradient(-45deg, #890033cf 50%, #e288b2 50%);
     font-family: 'Raleway', sans-serif;
 }
 label {
     font-size: 1.0rem;
-    color: #9e9e9e;
+    color: #ffffff;
 }
 .titulo {
     font-size: 40px;
@@ -24,7 +27,7 @@ label {
     text-transform: uppercase;
 }
 
-.postre { 
+.desc { 
     color: #fff;
     margin: 7px 0;
     font-size: 50px;
@@ -82,9 +85,15 @@ border-radius: 15px;
     border-radius: 50%;
 }
 /*version mobile*/
+
+@media (max-width:768px){
+.back-to-top {
+    bottom: 70px;
+}
+
 @media (max-width:789px){
     .row .col.s12 {
-    width: 127%;
+    width: 120%;
     margin-left: -30px;
     left: auto;
     right: auto;
@@ -99,25 +108,32 @@ border-radius: 15px;
     z-index: -1;
     border-radius: 15px;
 }
-.sabor {
+
+
+.desc {
     color: #fff;
     margin: 7px 0;
-    font-size: 40px;
+    font-size: 30px;
     font-weight: 600;
     text-shadow: 2px 2px 1px rgba(0,0,0,0.7);
     font-family: 'Dancing Script', cursive;
-    margin-top: 0;
+    margin-top: 350px;
 }
+
+
+
 }
+
 .form-group{
-    color: rgb(0, 0, 0); 
+    color: rgb(255, 255, 255); 
    
    }
 .form-control::placeholder {
-     color: rgb(0, 0, 0); 
+     color: rgb(255, 255, 255); 
     
     }
 #comentarios::placeholder {
     color: rgb(0, 0, 0); 
    
+   }
    }
