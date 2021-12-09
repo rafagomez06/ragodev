@@ -34,7 +34,7 @@ function validateAssigned() {
 
     //INGRESE UN NUMERO DE WHATSAPP VALIDO AQUI:
 //let telefono = "526671890892";
-let telefono = "526673881307";
+let telefono = "526677477507";
 //valores de las cajas de texto
  let cliente = document.querySelector("#cliente").value;
  //let celular= document.querySelector("#celular").value;
